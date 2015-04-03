@@ -5,7 +5,8 @@
 // @author      Moriarty
 // @include     http://*
 // @include     https://*
-// @version     0.1.0
+// @version     0.1.1
+// @license	GNU/GPL v3
 // @grant       none
 // ==/UserScript==
 var isHighlandCoffee = (document.forms[0].action.indexOf('/nodogsplash_auth/') > - 1) ? true : false;
