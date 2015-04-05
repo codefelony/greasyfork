@@ -419,35 +419,3 @@ return elem;
 	GM_config.setValue(e, node.style.display);
  },
 };
-
-
-/* EXAMPLE CODE BELOW --------------------------
-
-GM_config.init("Test", {
-	"one" : {
-		"label" : "Option One",
-		"type" : "checkbox",
-		"default" : false
-	},
-	"two" : {
-		"label" : "Option Two",
-		"type" : "checkbox",
-		"default" : false
-	},
-	"three" : {
-		"label" : "Option Three",
-		"type" : "password"
-	},
-	 "four" : {
-		"label" : "Option Four",
-		"type" : "select",
-		"options" : {
-			"one" : "One",
-			"two" : "Two"
-		}
-	}
-});
-
-GM_config.open();
-
-------------------------------------------------- */
