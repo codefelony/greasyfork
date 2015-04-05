@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        Bypass Highland Coffee
-// @namespace   https://codefelony.com
+// @namespace   https://greasyfork.org/en/users/10166-moriarty
 // @description Go fight HighlandCoffee hotspot!
 // @author      Moriarty
 // @include     http://*
