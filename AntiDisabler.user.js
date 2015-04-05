@@ -27,7 +27,7 @@
 // @exclude        http://*.codefelony.com/*
 // @exclude        https://*.codefelony.com/*
 // @exclude        https://codefelony.com/*
-// @require        https://raw.githubusercontent.com/codefelony/cfl/master/versions/cfl-1.3.1.js
+// @require        https://greasyfork.org/scripts/9003-codefelony-js-library/code/CodeFelony%20JS%20Library.js?version=44596
 // @copyright      CodeFelony
 // @version        1.0.1
 // @run-at         document-start
