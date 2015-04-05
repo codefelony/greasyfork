@@ -12,8 +12,8 @@
 // @exclude        https://youtube.com/*
 // @exclude        http://*.facebook.com/*
 // @exclude        https://*.facebook.com/*
-// @exclude        http://userscripts.org/*
-// @exclude        https://userscripts.org/*
+// @exclude        http://greasyfork.org/*
+// @exclude        https://greasyfork.org/*
 // @exclude        http://*.deviantart.com/*
 // @exclude        http://www.jslint.com/*
 // @exclude        https://www.jslint.com/*
@@ -24,9 +24,12 @@
 // @exclude        https://jsfiddle.net/*
 // @exclude        http://*.wikipedia.org/*
 // @exclude        https://*.wikipedia.org/*
-// @require        https://raw.github.com/codefelony/cfl/master/versions/jsl-1.3.1.js
+// @exclude        http://*.codefelony.com/*
+// @exclude        https://*.codefelony.com/*
+// @exclude        https://codefelony.com/*
+// @require        https://raw.githubusercontent.com/codefelony/cfl/master/versions/cfl-1.3.1.js
 // @copyright      CodeFelony
-// @version        0.0.1
+// @version        1.0.1
 // @run-at         document-start
 // ==/UserScript==
 
