@@ -5,14 +5,16 @@
 // @author      Moriarty
 // @include     http://*
 // @include     https://*
-// @version     0.1.1
+// @version     0.1.2
 // @license	GNU/GPL v3
 // @grant       none
 // ==/UserScript==
-var isHighlandCoffee = (document.forms[0].action.indexOf('/nodogsplash_auth/') > - 1) ? true : false;
+var docTitle = document.title;
+var searchText = 'Viet Thai International | Connect';
+var isHighlandCoffee = (docTitle === searchText) ? true : false;
 if (isHighlandCoffee) {
     console.info('Fucking HighlandCoffee HotSpot...');
-    document.getElementsByName('redir') [0].value = window.location.href;
+    document.getElementsByName('redir')[0].value = window.location.href;
     document.forms[0].submit();
 } else {
     console.warn('There is no hotspot to bypass, fuck Highland!');
